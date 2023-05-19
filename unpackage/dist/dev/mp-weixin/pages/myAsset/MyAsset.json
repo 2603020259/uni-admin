@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的资产",
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs"
+  }
+}

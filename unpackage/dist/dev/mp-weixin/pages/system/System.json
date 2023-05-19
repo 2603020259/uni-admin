@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "设置",
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

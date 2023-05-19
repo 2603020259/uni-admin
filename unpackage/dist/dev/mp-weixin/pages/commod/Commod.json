@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "u-number-box": "/uni_modules/uview-ui/components/u-number-box/u-number-box",
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
+    "u-rate": "/uni_modules/uview-ui/components/u-rate/u-rate",
+    "uni-goods-nav": "/uni_modules/uni-goods-nav/components/uni-goods-nav/uni-goods-nav",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-tag": "/uni_modules/uview-ui/components/u-tag/u-tag",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

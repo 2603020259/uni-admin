@@ -1,0 +1,18 @@
+{
+    "id": "scroll-tabs",
+    "displayName": "scroll-tabs 上下滚动选项",
+    "version": "1.3.0",
+    "description": "可点击tab选项滚动与滑动自动切换到相应tab选项的tab组件",
+    "keywords": [
+        "tab",
+        "scroll",
+        "滚动tab",
+        "tabs"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider"
+  }
+}

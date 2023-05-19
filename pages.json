@@ -1,0 +1,160 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/Home",
+			"style": {
+				"navigationBarTitleText": "星乐猫咖",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 200
+
+			}
+		},
+		{
+			"path": "pages/class/Class",
+			"style": {
+				"navigationBarTitleText": "商品分类",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 200
+			}
+		},
+		{
+			"path": "pages/order/Order",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 200
+			}
+		},
+		{
+			"path": "pages/mine/Mine",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"onReachBottomDistance": 200
+			}
+		},
+		{
+			"path": "pages/commod/Commod",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 200
+			}
+		},
+		{
+			"path": "pages/confirm/Confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/address/Address",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/address/changeAdress",
+			"style": {
+				"navigationBarTitleText": "选择收货地址",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/myAsset/MyAsset",
+			"style": {
+				"navigationBarTitleText": "我的资产",
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/orderList/OrderList",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/help/Help",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/person/Person",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/system/System",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/system/About",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/search/Search",
+			"style": {
+				"navigationBarTitleText": "搜一搜",
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/goodsList/GoodsList",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"onReachBottomDistance": 200
+			}
+		},{
+			"path": "pages/announcement/Announcement",
+			"style": {
+				"navigationBarTitleText": "公告详情",
+				"onReachBottomDistance": 200
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#ccc",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#b842ff",
+		"backgroundColor": "#fff"
+	},
+	"uniIdRouter": {},
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#7f0388",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/Home",
+				"iconPath": "static/homePage.png",
+				"selectedIconPath": "static/honePages.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/class/Class",
+				"iconPath": "static/classPage.png",
+				"selectedIconPath": "static/classPages.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/order/Order",
+				"iconPath": "static/orderPage.png",
+				"selectedIconPath": "static/orderPages.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/mine/Mine",
+				"iconPath": "static/minePage.png",
+				"selectedIconPath": "static/minePages.png"
+			}
+		]
+	}
+}

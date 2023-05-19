@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "星乐猫咖",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "u-notice-bar": "/uni_modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u-col": "/uni_modules/uview-ui/components/u-col/u-col",
+    "u-image": "/uni_modules/uview-ui/components/u-image/u-image"
+  }
+}

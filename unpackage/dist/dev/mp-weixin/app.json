@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/Home",
+    "pages/class/Class",
+    "pages/order/Order",
+    "pages/mine/Mine",
+    "pages/commod/Commod",
+    "pages/confirm/Confirm",
+    "pages/address/Address",
+    "pages/address/changeAdress",
+    "pages/myAsset/MyAsset",
+    "pages/orderList/OrderList",
+    "pages/help/Help",
+    "pages/person/Person",
+    "pages/system/System",
+    "pages/system/About",
+    "pages/search/Search",
+    "pages/goodsList/GoodsList",
+    "pages/announcement/Announcement"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#b842ff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#7f0388",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/Home",
+        "iconPath": "static/homePage.png",
+        "selectedIconPath": "static/honePages.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/class/Class",
+        "iconPath": "static/classPage.png",
+        "selectedIconPath": "static/classPages.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/order/Order",
+        "iconPath": "static/orderPage.png",
+        "selectedIconPath": "static/orderPages.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/Mine",
+        "iconPath": "static/minePage.png",
+        "selectedIconPath": "static/minePages.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
